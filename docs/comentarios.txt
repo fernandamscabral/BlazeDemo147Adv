@@ -34,3 +34,6 @@ Nomenclatura
 - Gherkin: as instruções do BDD são escritas na sintaxe (formato) chamado Gherkin
 
 - Cucumber/Behave/SpecFlow são exemplos de plugins que fazem a integração entre arquivos .feature com arquivos .spec.js 
+
+Em um projeto simples, cada teste é um arquivo .spec.js diferente
+Em um projeto com Gherkin, cada teste é composto por um arquivo .feature + um arquivo steps.js 
