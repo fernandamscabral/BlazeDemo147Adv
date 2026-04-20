@@ -123,4 +123,10 @@ At this stage, the project includes the feature file structure, step definitions
 
 ## 📚 Notes
 
-BlazeDemo is a demo application used for test practice and learning purposes.
+BlazeDemo is a demo web application used for test practice and learning purposes.
+
+In some Page Object classes (e.g., HomePage and ReservePage), assertions were intentionally implemented inside the page methods for demonstration purposes.
+
+This approach was used during training to illustrate the difference between embedding assertions within Page Objects and keeping them in step definitions.
+
+In a production-ready test architecture, assertions should be handled at the test or step level, keeping Page Objects focused only on actions and element interactions.
