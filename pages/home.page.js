@@ -1,4 +1,5 @@
-export default class HomePage {
+// export default class HomePage { // padrão para type = module
+class HomePage {                   // padrão para type = commonjs
     // Construtor com o mapeamento dos elementos da página
     constructor(page) {
         this.page = page // Armazena a referência à página do Playwright
@@ -40,3 +41,5 @@ export default class HomePage {
         }
     }
 }
+
+module.exports = HomePage // padrão quando type = commonjs
