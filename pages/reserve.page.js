@@ -1,4 +1,5 @@
-export default class ReservePage {
+// export default class ReservePage { // padrão para type = module
+class ReservePage {                   // padrão para type = commonjs
 
     constructor(page) {
         this.page = page
@@ -37,4 +38,5 @@ export default class ReservePage {
     }
 
 }
- 
+
+module.exports = ReservePage // padrão quando type = commonjs

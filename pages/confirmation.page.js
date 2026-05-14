@@ -1,4 +1,5 @@
-export default class ConfirmationPage {
+// export default class ConfirmationPage { // padrão para type = module
+class ConfirmationPage {                   // padrão para type = commonjs
 
     constructor(page) {
         this.page = page
@@ -7,3 +8,5 @@ export default class ConfirmationPage {
         this.preco = 'Amount'
     }
 }
+
+module.exports = ConfirmationPage // padrão quando type = commonjs

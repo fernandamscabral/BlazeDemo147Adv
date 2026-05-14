@@ -1,4 +1,5 @@
-export default class PurchasePage {
+// export default class PurchasePage { // padrão para type = module
+class PurchasePage {                   // padrão para type = commonjs
 
     constructor(page) {
         this.page = page
@@ -27,3 +28,5 @@ export default class PurchasePage {
         await this.page.locator(this.btn_purchase_flight).click()
     }
 }
+
+module.exports = PurchasePage // padrão quando type = commonjs
