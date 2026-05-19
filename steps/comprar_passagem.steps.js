@@ -38,7 +38,7 @@ Then('verifico o texto {string}', async function (mensagem_origem_destino) {
 });
 
 Then('verifico se a url contem {string}', async function (pagina) {
-    expect(this.page).toHaveURL(`/${pagina}\.php/`)
+    await expect(this.page).toHaveURL(`/${pagina}\.php`)
 });
 
 When('seleciono o voo {string} da companhia {string}', async function (voo, companhia) {
@@ -58,10 +58,10 @@ When('marco a opcao {string}', async function (string) {
     await this.purchasePage.marcar_lembrete()
 });
 
-When('clico no botao {string}', async function (string) {
-    // Não estamos usando o parametro que é recebido nesse bloco
-    await this.purchasePage.comprar_passagem()
-});
+// When('clico no botao {string}', async function (string) {
+//     // Não estamos usando o parametro que é recebido nesse bloco
+//     await this.purchasePage.comprar_passagem()
+// });
 
 Then('se exibe a mensagem de agradecimento {string}', async function (string) {
     await expect(this.page.locator(this.confirmationPage.mensagem)).toHaveText('Thank you for your purchase today!')

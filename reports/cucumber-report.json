@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 100572458
+              "duration": 109434666
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2129304708
+              "duration": 1685055042
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2954083
+              "duration": 2888292
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1612458
+              "duration": 1982083
             }
           },
           {
@@ -66,7 +66,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 427032707
+              "duration": 354144958
             }
           },
           {
@@ -79,7 +79,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 47887082
+              "duration": 49127667
             }
           },
           {
@@ -92,7 +92,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1518458
+              "duration": 4719082
             }
           },
           {
@@ -105,7 +105,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 706460666
+              "duration": 306740082
             }
           },
           {
@@ -118,7 +118,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1041291
+              "duration": 10604916
             }
           },
           {
@@ -131,7 +131,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 15290207
+              "duration": 5204459
             }
           },
           {
@@ -144,7 +144,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2053375
+              "duration": 2273290
             }
           },
           {
@@ -157,7 +157,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 19788042
+              "duration": 22803249
             }
           },
           {
@@ -165,9 +165,12 @@
             "keyword": "E ",
             "line": 15,
             "name": "clico no botao \"Purchase Flight\"",
+            "match": {
+              "location": "steps/comprar_passagem.steps.js:24"
+            },
             "result": {
-              "status": "ambiguous",
-              "duration": 0
+              "status": "passed",
+              "duration": 475103333
             }
           },
           {
@@ -179,8 +182,8 @@
               "location": "steps/comprar_passagem.steps.js:40"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 9795082
             }
           },
           {
@@ -192,8 +195,8 @@
               "location": "steps/comprar_passagem.steps.js:66"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 2725334
             }
           },
           {
@@ -205,17 +208,16 @@
               "location": "steps/comprar_passagem.steps.js:70"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 2381750
             }
           },
           {
             "keyword": "After",
             "hidden": true,
             "result": {
-              "status": "failed",
-              "duration": 4593666,
-              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected: \u001b[32m\"https://\u001b[7mwww.\u001b[27mblazedemo.com/\u001b[7mreserv\u001b[27me.php\u001b[7m/\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"https://blazedemo.com/\u001b[7mpurchas\u001b[27me.php\"\u001b[39m\n\nCall log:\n\u001b[2m  - Expect \"to.have.url\" with timeout 5000ms\u001b[22m\n\u001b[2m    2 × unexpected value \"https://blazedemo.com/reserve.php\"\u001b[22m\n\u001b[2m    - waiting for\" https://blazedemo.com/purchase.php\" navigation to finish...\u001b[22m\n\u001b[2m    - navigated to \"https://blazedemo.com/purchase.php\"\u001b[22m\n\u001b[2m    - unexpected value \"https://blazedemo.com/purchase.php\"\u001b[22m\n\n    at Proxy.<anonymous> (/Users/fernandamacedo/Iterasys/BlazeDemo147Adv/node_modules/playwright/lib/matchers/expect.js:213:24)\n    at Base.<anonymous> (/Users/fernandamacedo/Iterasys/BlazeDemo147Adv/steps/comprar_passagem.steps.js:41:23)"
+              "status": "passed",
+              "duration": 18963874
             }
           }
         ],
@@ -233,19 +235,21 @@
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "failed",
-              "duration": 372666,
-              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected: \u001b[32m\"https://\u001b[7mwww.\u001b[27mblazedemo.com/purchase.php\u001b[7m/\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"https://blazedemo.com/purchase.php\"\u001b[39m\n\nCall log:\n\u001b[2m  - Expect \"to.have.url\" with timeout 5000ms\u001b[22m\n\u001b[2m    2 × unexpected value \"https://blazedemo.com/purchase.php\"\u001b[22m\n\n    at Proxy.<anonymous> (/Users/fernandamacedo/Iterasys/BlazeDemo147Adv/node_modules/playwright/lib/matchers/expect.js:213:24)\n    at Base.<anonymous> (/Users/fernandamacedo/Iterasys/BlazeDemo147Adv/steps/comprar_passagem.steps.js:41:23)"
+              "status": "passed",
+              "duration": 108063292
             }
           },
           {
             "arguments": [],
             "keyword": "Dado ",
             "line": 21,
-            "name": "que estou no site Blazedemo",
+            "name": "que estou no site BlazeDemo",
+            "match": {
+              "location": "steps/comprar_passagem.steps.js:10"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 1705664749
             }
           },
           {
@@ -257,8 +261,8 @@
               "location": "steps/comprar_passagem.steps.js:15"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 2415791
             }
           },
           {
@@ -270,8 +274,8 @@
               "location": "steps/comprar_passagem.steps.js:19"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 1850333
             }
           },
           {
@@ -279,9 +283,12 @@
             "keyword": "E ",
             "line": 24,
             "name": "clico no botao \"Find Flights\"",
+            "match": {
+              "location": "steps/comprar_passagem.steps.js:24"
+            },
             "result": {
-              "status": "ambiguous",
-              "duration": 0
+              "status": "passed",
+              "duration": 415255500
             }
           },
           {
@@ -293,8 +300,8 @@
               "location": "steps/comprar_passagem.steps.js:78"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 11872292
             }
           },
           {
@@ -306,8 +313,8 @@
               "location": "steps/comprar_passagem.steps.js:40"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 29992707
             }
           },
           {
@@ -319,8 +326,8 @@
               "location": "steps/comprar_passagem.steps.js:44"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 489270125
             }
           },
           {
@@ -332,8 +339,8 @@
               "location": "steps/comprar_passagem.steps.js:40"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 10048209
             }
           },
           {
@@ -345,8 +352,8 @@
               "location": "steps/comprar_passagem.steps.js:48"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 4650250
             }
           },
           {
@@ -358,8 +365,8 @@
               "location": "steps/comprar_passagem.steps.js:52"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 2077416
             }
           },
           {
@@ -371,8 +378,8 @@
               "location": "steps/comprar_passagem.steps.js:56"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 15315459
             }
           },
           {
@@ -380,9 +387,12 @@
             "keyword": "E ",
             "line": 32,
             "name": "clico no botao \"Purchase Flight\"",
+            "match": {
+              "location": "steps/comprar_passagem.steps.js:24"
+            },
             "result": {
-              "status": "ambiguous",
-              "duration": 0
+              "status": "passed",
+              "duration": 748868708
             }
           },
           {
@@ -394,8 +404,8 @@
               "location": "steps/comprar_passagem.steps.js:40"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 6523417
             }
           },
           {
@@ -407,8 +417,8 @@
               "location": "steps/comprar_passagem.steps.js:66"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 1696750
             }
           },
           {
@@ -420,8 +430,8 @@
               "location": "steps/comprar_passagem.steps.js:70"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 1496292
             }
           },
           {
@@ -429,7 +439,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 24499
+              "duration": 15465874
             }
           }
         ],
@@ -448,17 +458,20 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 119596083
+              "duration": 102171583
             }
           },
           {
             "arguments": [],
             "keyword": "Dado ",
             "line": 21,
-            "name": "que estou no site Blazedemo",
+            "name": "que estou no site BlazeDemo",
+            "match": {
+              "location": "steps/comprar_passagem.steps.js:10"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 3192271292
             }
           },
           {
@@ -470,8 +483,8 @@
               "location": "steps/comprar_passagem.steps.js:15"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 2759125
             }
           },
           {
@@ -483,8 +496,8 @@
               "location": "steps/comprar_passagem.steps.js:19"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 1916750
             }
           },
           {
@@ -492,9 +505,12 @@
             "keyword": "E ",
             "line": 24,
             "name": "clico no botao \"Find Flights\"",
+            "match": {
+              "location": "steps/comprar_passagem.steps.js:24"
+            },
             "result": {
-              "status": "ambiguous",
-              "duration": 0
+              "status": "passed",
+              "duration": 409901916
             }
           },
           {
@@ -506,8 +522,8 @@
               "location": "steps/comprar_passagem.steps.js:78"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 36865582
             }
           },
           {
@@ -519,21 +535,21 @@
               "location": "steps/comprar_passagem.steps.js:40"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 865208
             }
           },
           {
             "arguments": [],
             "keyword": "Quando ",
             "line": 27,
-            "name": "seleciono o voo \"12\" da companhia \"Virgen America\"",
+            "name": "seleciono o voo \"12\" da companhia \"Virgin America\"",
             "match": {
               "location": "steps/comprar_passagem.steps.js:44"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 434231583
             }
           },
           {
@@ -545,8 +561,8 @@
               "location": "steps/comprar_passagem.steps.js:40"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 9020333
             }
           },
           {
@@ -558,8 +574,8 @@
               "location": "steps/comprar_passagem.steps.js:48"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 4625916
             }
           },
           {
@@ -571,8 +587,8 @@
               "location": "steps/comprar_passagem.steps.js:52"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 2372959
             }
           },
           {
@@ -584,8 +600,8 @@
               "location": "steps/comprar_passagem.steps.js:56"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 19931834
             }
           },
           {
@@ -593,9 +609,12 @@
             "keyword": "E ",
             "line": 32,
             "name": "clico no botao \"Purchase Flight\"",
+            "match": {
+              "location": "steps/comprar_passagem.steps.js:24"
+            },
             "result": {
-              "status": "ambiguous",
-              "duration": 0
+              "status": "passed",
+              "duration": 332417750
             }
           },
           {
@@ -607,8 +626,8 @@
               "location": "steps/comprar_passagem.steps.js:40"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 4708375
             }
           },
           {
@@ -620,8 +639,8 @@
               "location": "steps/comprar_passagem.steps.js:66"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 2497042
             }
           },
           {
@@ -633,8 +652,8 @@
               "location": "steps/comprar_passagem.steps.js:70"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 1762791
             }
           },
           {
@@ -642,7 +661,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 17737958
+              "duration": 15607082
             }
           }
         ],
@@ -661,17 +680,20 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 97561291
+              "duration": 104980792
             }
           },
           {
             "arguments": [],
             "keyword": "Dado ",
             "line": 21,
-            "name": "que estou no site Blazedemo",
+            "name": "que estou no site BlazeDemo",
+            "match": {
+              "location": "steps/comprar_passagem.steps.js:10"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 1235477791
             }
           },
           {
@@ -683,8 +705,8 @@
               "location": "steps/comprar_passagem.steps.js:15"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 2677875
             }
           },
           {
@@ -696,8 +718,8 @@
               "location": "steps/comprar_passagem.steps.js:19"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 1735458
             }
           },
           {
@@ -705,9 +727,12 @@
             "keyword": "E ",
             "line": 24,
             "name": "clico no botao \"Find Flights\"",
+            "match": {
+              "location": "steps/comprar_passagem.steps.js:24"
+            },
             "result": {
-              "status": "ambiguous",
-              "duration": 0
+              "status": "passed",
+              "duration": 647523666
             }
           },
           {
@@ -719,8 +744,8 @@
               "location": "steps/comprar_passagem.steps.js:78"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 33999584
             }
           },
           {
@@ -732,8 +757,8 @@
               "location": "steps/comprar_passagem.steps.js:40"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 769958
             }
           },
           {
@@ -745,8 +770,8 @@
               "location": "steps/comprar_passagem.steps.js:44"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 305007333
             }
           },
           {
@@ -758,8 +783,8 @@
               "location": "steps/comprar_passagem.steps.js:40"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 8073207
             }
           },
           {
@@ -771,21 +796,21 @@
               "location": "steps/comprar_passagem.steps.js:48"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 3942875
             }
           },
           {
             "arguments": [],
             "keyword": "E ",
             "line": 30,
-            "name": "seleciono a bandeira do cartao como \"Dinner's Club\"",
+            "name": "seleciono a bandeira do cartao como \"Diner's Club\"",
             "match": {
               "location": "steps/comprar_passagem.steps.js:52"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 1883958
             }
           },
           {
@@ -797,8 +822,8 @@
               "location": "steps/comprar_passagem.steps.js:56"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 19909416
             }
           },
           {
@@ -806,9 +831,12 @@
             "keyword": "E ",
             "line": 32,
             "name": "clico no botao \"Purchase Flight\"",
+            "match": {
+              "location": "steps/comprar_passagem.steps.js:24"
+            },
             "result": {
-              "status": "ambiguous",
-              "duration": 0
+              "status": "passed",
+              "duration": 378078458
             }
           },
           {
@@ -820,8 +848,8 @@
               "location": "steps/comprar_passagem.steps.js:40"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 7940291
             }
           },
           {
@@ -833,8 +861,8 @@
               "location": "steps/comprar_passagem.steps.js:66"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 1684083
             }
           },
           {
@@ -846,8 +874,8 @@
               "location": "steps/comprar_passagem.steps.js:70"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 1744041
             }
           },
           {
@@ -855,7 +883,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 18275500
+              "duration": 16684666
             }
           }
         ],

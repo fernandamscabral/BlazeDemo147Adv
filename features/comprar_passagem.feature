@@ -18,7 +18,7 @@ Funcionalidade: Compra de Passagens
         E se contem a informacao "Amount" como "555 USD"
  
     Esquema do Cenario: Compra com Sucesso DDT
-        Dado que estou no site Blazedemo
+        Dado que estou no site BlazeDemo
         Quando seleciono a origem como "<origem>"
         E seleciono o destino como "<destino>"
         E clico no botao "Find Flights"
@@ -37,5 +37,5 @@ Funcionalidade: Compra de Passagens
     Exemplos:
         | origem      | destino  | voo  | companhia      | nome          | bandeira         | preco   |
         | São Paolo   | London   | 9696 | Aer Lingus     | Charlie Brown | Visa             | 555 USD |
-        | Portland    | Dublin   |   12 | Virgen America | Harry Potter  | American Express | 555 USD |
-        | Boston      | New York | 4346 | Lufthansa      | John Smith    | Dinner's Club    | 555 USD |
+        | Portland    | Dublin   |   12 | Virgin America | Harry Potter  | American Express | 555 USD |
+        | Boston      | New York | 4346 | Lufthansa      | John Smith    | Diner's Club    | 555 USD |
